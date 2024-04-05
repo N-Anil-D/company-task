@@ -18,7 +18,7 @@ php artisan key:generate
 ```
 php artisan app:database-builder
 ```
-> OR simply copy paste this to your command screen
+> OR simply copy paste this to your command screen *if your environment variables includes mysql*
 
 ```
 git clone https://github.com/N-Anil-D/company-task.git
