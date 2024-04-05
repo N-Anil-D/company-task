@@ -7,11 +7,14 @@
 </p>
 
 # After Download Required Installation
-
+>Clone this this repository and
 ```
 composer install
 ```
 > create .env file from .env.example
+```
+php artisan key:generate
+```
 ```
 php artisan app:database-builder
 ```
@@ -25,14 +28,17 @@ cp .env.example .env
 php artisan key:generate
 mysql -u root -p
 
-CREATE DATABASE IF NOT EXISTS newtemplate;
+CREATE DATABASE IF NOT EXISTS extratik;
 exit
 
 php artisan app:database-builder
+
+start chrome http://127.0.0.1:8000
+php artisan serve
 ```
 ## Installation INFO
 > This Project is 
->> php: "^8.2"
->> laravel/framework: "^11.0"
->> livewire: "^3.4"
->> carbon: "^3.2"
+> php: "^8.2"
+> laravel/framework: "^11.0"
+> livewire: "^3.4"
+> carbon: "^3.2"
