@@ -14,6 +14,11 @@ composer install
 > migrate data & seed (All in one)
 >
 > crate empty MySql database and set in your .env file
+> This Project is 
+>> laravel/framework: "^11.0"
+>> livewire: "^3.4"
+>> carbon: "^3.2"
+
 ```
 php artisan app:database-builder
 ```
