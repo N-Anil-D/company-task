@@ -7,20 +7,32 @@
 </p>
 
 # After Download Required Installation
+
 ```
 composer install
 ```
-## Short Installation
-> migrate data & seed (All in one)
->
-> crate empty MySql database and set in your .env file
-> This Project is 
->> laravel/framework: "^11.0"
->> livewire: "^3.4"
->> carbon: "^3.2"
-
+> create .env file from .env.example
 ```
 php artisan app:database-builder
 ```
+> OR simply copy paste this to your command screen
 
-### This project includes extra Livewire and Carbon
+```
+git clone https://github.com/N-Anil-D/company-task.git
+cd company-task
+composer install
+cp .env.example .env
+php artisan key:generate
+mysql -u root -p
+
+CREATE DATABASE IF NOT EXISTS newtemplate;
+exit
+
+php artisan app:database-builder
+```
+## Installation INFO
+> This Project is 
+>> php: "^8.2"
+>> laravel/framework: "^11.0"
+>> livewire: "^3.4"
+>> carbon: "^3.2"
