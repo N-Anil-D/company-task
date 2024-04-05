@@ -51,7 +51,7 @@
                                                                                     </ul>
                                                                                     <div class="col-md-12 text-end">
                                                                                         <button class="mb-1 mt-1 me-1 modal-sizes btn btn-default" wire:click="editPatientKinModal({{ $nextOfKin->id }})"><i class="fas fa-pencil-alt"></i></a>
-                                                                                        <button class="mb-1 mt-1 me-1 modal-sizes btn btn-default" wire:click="deleteModal({{ $patient->id.",'Kin'" }})"><i class="far fa-trash-alt"></i></a>
+                                                                                        <button class="mb-1 mt-1 me-1 modal-sizes btn btn-default" wire:click="deleteModal({{ $nextOfKin->id.",'Kin'" }})"><i class="far fa-trash-alt"></i></a>
                                                                                     </div>
                                                                             </div>
                                                                         </section>
@@ -60,7 +60,6 @@
                                                                 <div class="col-md-12 text-end">
                                                                     <button class="mb-1 mt-1 me-1 modal-sizes btn btn-default" wire:click="newNextOfKinModal({{ $patient->id }})"><i class="fas fa-plus-circle"></i></a>
                                                                 </div>
-
                                                             </div>
                                                     </div>
                                                 </section>

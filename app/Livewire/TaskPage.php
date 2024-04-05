@@ -25,20 +25,6 @@ class TaskPage extends Component
         public $conditionInfo;
         public $medicationInfo;
         public $deleteData;
-        // public $scriptNameArray = [
-        //     'patientEdit',
-        //     'patientKinEdit',
-        //     'alergieEdit',
-        //     'conditionEdit',
-        //     'medicationEdit',
-        //     'deleteModal',
-        //     'patientNew',
-        //     'patientKinNew',
-        //     'addAlergie',
-        //     'addCondition',
-        //     'addMedication',
-        // ];
-    
     #component Variables End
 
     public function render()
@@ -215,35 +201,35 @@ class TaskPage extends Component
     #Create Section Start
     public function newPatientModal(){
         $this->newPatientData = [
-            'id_card'=>'111111',
-            'gender'=>'0',
-            'name'=>'111111',
-            'surname'=>'111111',
-            'date_of_birth'=>'1995-04-02',
-            'address'=>'111111',
-            'postcode'=>'111111',
-            'contact_number_1'=>'111111',
-            'contact_number_2'=>'111111',
+            'id_card'=>null,
+            'gender'=>null,
+            'name'=>null,
+            'surname'=>null,
+            'date_of_birth'=>null,
+            'address'=>null,
+            'postcode'=>null,
+            'contact_number_1'=>null,
+            'contact_number_2'=>null,
 
-            'kin1_id_card'=>'111111',
-            'kin1_name'=>'111111',
-            'kin1_surname'=>'111111',
-            'kin1contact_number_1'=>'111111',
-            'kin1contact_number_2'=>'111111',
-            'kin2_id_card'=>'111111',
-            'kin2_name'=>'111111',
-            'kin2_surname'=>'111111',
-            'kin2contact_number_1'=>'111111',
-            'kin2contact_number_2'=>'111111',
+            'kin1_id_card'=>null,
+            'kin1_name'=>null,
+            'kin1_surname'=>null,
+            'kin1contact_number_1'=>null,
+            'kin1contact_number_2'=>null,
+            'kin2_id_card'=>null,
+            'kin2_name'=>null,
+            'kin2_surname'=>null,
+            'kin2contact_number_1'=>null,
+            'kin2contact_number_2'=>null,
 
-            'alergie_name'=>'111111',
-            'alergie_note'=>'111111',
-            'condition_name'=>'111111',
-            'condition_note'=>'111111',
-            'medication_name'=>'111111',
-            'medication_note'=>'111111',
-            'medication_start_date'=>'2024-04-02',
-            'medication_end_date'=>'2024-04-02',
+            'alergie_name'=>null,
+            'alergie_note'=>null,
+            'condition_name'=>null,
+            'condition_note'=>null,
+            'medication_name'=>null,
+            'medication_note'=>null,
+            'medication_start_date'=>null,
+            'medication_end_date'=>null,
 
         ];
         $this->dispatch('patientNewShow');

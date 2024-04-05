@@ -22,26 +22,3 @@
 
 <!-- Theme Initialization Files -->
 <script src="{{ asset('designFiles/js/theme.init.js') }}"></script>
-
-<!-- Examples -->
-
-{{-- 
-    # uncommenting this script will cause functionlity disorder
-<script src="{{ asset('designFiles/js/examples/examples.datatables.default.js') }}"></script>
-<script src="{{ asset('designFiles/js/examples/examples.datatables.row.with.details.js') }}"></script>
-<script src="{{ asset('designFiles/js/examples/examples.datatables.tabletools.js') }}"></script>
-<script src="{{ asset('designFiles/js/examples/examples.modals.js') }}"></script>
-<script src="{{ asset('designFiles/jquery-mockjax/jquery.mockjax.js') }}"></script>
-<script src="{{ asset('designFiles/js/examples/examples.wizard.js') }}"></script>
-<script src="{{ asset('designFiles/datatables/media/js/jquery.dataTables.min.js') }}"></script>
-<script src="{{ asset('designFiles/datatables/media/js/dataTables.bootstrap5.min.js') }}"></script>
-<script src="{{ asset('designFiles/datatables/extras/TableTools/Buttons-1.4.2/js/dataTables.buttons.min.js') }}"></script>
-<script src="{{ asset('designFiles/datatables/extras/TableTools/Buttons-1.4.2/js/buttons.bootstrap4.min.js') }}"></script>
-<script src="{{ asset('designFiles/datatables/extras/TableTools/Buttons-1.4.2/js/buttons.html5.min.js') }}"></script>
-<script src="{{ asset('designFiles/datatables/extras/TableTools/Buttons-1.4.2/js/buttons.print.min.js') }}"></script>
-<script src="{{ asset('designFiles/datatables/extras/TableTools/JSZip-2.5.0/jszip.min.js') }}"></script>
-<script src="{{ asset('designFiles/datatables/extras/TableTools/pdfmake-0.1.32/pdfmake.min.js') }}"></script>
-<script src="{{ asset('designFiles/datatables/extras/TableTools/pdfmake-0.1.32/vfs_fonts.js') }}"></script>
-<!-- Theme Custom -->
-<script src="{{ asset('designFiles/js/custom.js') }}"></script> 
---}}

@@ -6,19 +6,16 @@
     <br>
 </p>
 
-### After Download Required Installation
+# After Download Required Installation
 ```
 composer install
 ```
-```
-This project includes extra Livewire and Carbon
-```
-
-### Short Installation
-```
-crate empty MySql database and set in your .env file
-```
-##### migrate data & seed (All in one)
+## Short Installation
+> migrate data & seed (All in one)
+>
+> crate empty MySql database and set in your .env file
 ```
 php artisan app:database-builder
 ```
+
+### This project includes extra Livewire and Carbon
